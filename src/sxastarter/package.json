@@ -12,7 +12,7 @@
     "dev": "npm-run-all --serial bootstrap astro:dev",
     "build": "npm-run-all --serial bootstrap astro:build",
     "preview": "npm-run-all --serial bootstrap astro:build astro:preview",
-    "astro:dev": "astro dev",
+    "astro:dev": "astro dev --host",
     "astro:build": "astro build",
     "astro:preview": "astro preview --host",
     "astro": "astro",
