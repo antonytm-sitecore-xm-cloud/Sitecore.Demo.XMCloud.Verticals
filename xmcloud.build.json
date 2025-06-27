@@ -2,7 +2,7 @@
   "renderingHosts": {
     "xmcloudpreview": {
       "path": "./src/sxastarter",
-      "nodeVersion": "20.12.0",
+      "nodeVersion": "22.11.0",
       "jssDeploymentSecret": "110F1C44A496B45478640DD36F80C18C9",
       "enabled": false,
       "type": "sxa",
@@ -11,7 +11,7 @@
     },
     "xmcloudpreviewnextjs": {
       "path": "./src/sxastarter-nextjs",
-      "nodeVersion": "20.12.0",
+      "nodeVersion": "22.11.0",
       "jssDeploymentSecret": "110F1C44A496B45478640DD36F80C18C9",
       "enabled": true,
       "type": "sxa",
@@ -39,14 +39,13 @@
         "indexNames": []
       },
       "scsModules": {
-        "modules": [
-          "HeadlessSxaWebsite-Media"
-        ]
+        "modules": ["HeadlessSxaWebsite-Media"]
       },
       "warmUpCm": {
         "urls": [
-          "/Utilities/InitializeComponentsLibraryId.aspx",
-          "/Utilities/InitializeHostname.aspx"
+          "/sitecore/shell",
+          "/sitecore/shell/Applications/Content%20Editor.aspx?sc_bw=1",
+          "/sitecore/client/Applications/Launchpad"
         ]
       },
       "reindex": {
@@ -54,15 +53,9 @@
       },
       "publish": {
         "path": "/sitecore",
-        "languages": [
-          "en",
-          "fr-CA",
-          "ja-JP"
-        ],
+        "languages": ["en", "fr-CA", "ja-JP"],
         "itemIds": [],
-        "targets": [
-          "Edge"
-        ],
+        "targets": ["Edge"],
         "republish": false
       }
     }
