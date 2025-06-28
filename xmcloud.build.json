@@ -29,18 +29,10 @@
     }
   },
   "transforms": [
-    {
-      "xdtPath": "/xdts/",
-      "targetPath": "/"
-    }
+
   ],
   "deployItems": {
-    "modules": [
-      "renderinghost",
-      "InitItems",
-      "HeadlessSxaWebsite",
-      "HeadlessSxaWebsite-Content"
-    ]
+
   },
   "postActions": {
 
