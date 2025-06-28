@@ -44,5 +44,6 @@
   },
   "postActions": {
 
-  }
+  },
+  "authoringPath": "./src/authoring"
 }
