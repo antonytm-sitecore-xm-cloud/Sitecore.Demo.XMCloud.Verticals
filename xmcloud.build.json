@@ -43,30 +43,6 @@
     ]
   },
   "postActions": {
-    "actions": {
-      "populateSchema": {
-        "indexNames": []
-      },
-      "scsModules": {
-        "modules": ["HeadlessSxaWebsite-Media"]
-      },
-      "warmUpCm": {
-        "urls": [
-          "/sitecore/shell",
-          "/sitecore/shell/Applications/Content%20Editor.aspx?sc_bw=1",
-          "/sitecore/client/Applications/Launchpad"
-        ]
-      },
-      "reindex": {
-        "indexNames": []
-      },
-      "publish": {
-        "path": "/sitecore",
-        "languages": ["en", "fr-CA", "ja-JP"],
-        "itemIds": [],
-        "targets": ["Edge"],
-        "republish": false
-      }
-    }
+
   }
 }
